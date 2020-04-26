@@ -4,7 +4,6 @@ const morgan = require('morgan')
 const uuid = require('uuid')
 const app = express()
 const API_KEY = '2abbf7c3-245b-404f-9473-ade729ed4653'
-
 const jsonParser = bodyParser.json();
 
 app.use(jsonParser);
